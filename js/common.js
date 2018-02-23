@@ -17,7 +17,7 @@ $(window).resize(function () {
     if ($(window).width() < 1150) {
         $(document.body).css("width", "1150px")
     }else{
-        $(document.body).css("width","100%")
+        $(document.body).css("width", "100%")
     }
 })
 $(".hove").hover(function () {

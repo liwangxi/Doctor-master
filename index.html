@@ -31,7 +31,7 @@
                         <a href="wzly.html" class="hove">完整疗愈健康管理中心</a>
                     </li>
                     <li>
-                        <a href="al.html">案例</a>
+                        <a href="zx.html">案例</a>
                     </li>
                     <li>
                         <a href="lxwm.html">联系我们</a>
@@ -385,7 +385,6 @@
             $(document.body).css("width", "1150px")
         }
     }())
-
     var galleryTop = new Swiper('.gallery-top', {
         loop: true,
         autoplay: 3000,
@@ -414,11 +413,10 @@
     })
     $(window).resize(function () {
         right1()
-        console.log($(window).width())
         if ($(window).width() < 1150) {
             $(document.body).css("width", "1150px")
         }else{
-            $(document.body).css("width","100%")
+            $(document.body).css("width", "100%")
         }
     })
     $(".tab-hover span").click(function () {
