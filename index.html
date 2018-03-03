@@ -87,6 +87,16 @@
             <h5>PROJECT SERVICES</h5>
             <p>服务项目</p>
             <div class="tab-list clearfix">
+                <a href="jbjc.html">
+                    <span></span>
+                    <br>
+                    <em>疾病检测</em>
+                </a>
+                <a href="swgz.html">
+                    <span></span>
+                    <br>
+                    <em>生物共振</em>
+                </a>
                 <a href="chxf2.html">
                     <span></span>
                     <br>
@@ -97,25 +107,15 @@
                     <br>
                     <em>细胞治疗</em>
                 </a>
-                <a href="yyyxue.html">
-                    <span></span>
-                    <br>
-                    <em>营养医学</em>
-                </a>
                 <a href="jyzl.html">
                     <span></span>
                     <br>
                     <em>基因治疗</em>
                 </a>
-                <a href="swgz.html">
+                <a href="yyyxue.html">
                     <span></span>
                     <br>
-                    <em>生物共振</em>
-                </a>
-                <a href="jbjc.html">
-                    <span></span>
-                    <br>
-                    <em>疾病检测</em>
+                    <em>营养医学</em>
                 </a>
             </div>
             <h5>ITS BRAND</h5>
@@ -403,7 +403,7 @@
         prevButton: '.swiper-button-prev',
     });
     function right1() {
-        if($(window).width()>1150){
+        if ($(window).width() > 1150) {
             left = ($(window).width() - 1150) / 2
         }
         $(".list .item div").css("marginLeft", left);
@@ -417,7 +417,7 @@
         right1()
         if ($(window).width() < 1150) {
             $(document.body).css("width", "1150px")
-        }else{
+        } else {
             $(document.body).css("width", "100%")
         }
     })

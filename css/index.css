@@ -49,40 +49,40 @@ section {
 .tab-top .tab-list a:nth-child(1) {
   margin-left: 30px;
 }
-.tab-top .tab-list a:nth-child(1) span {
+.tab-top .tab-list a:nth-child(3) span {
   background: url(../img/chxf1.png);
 }
-.tab-top .tab-list a:nth-child(1):hover span {
+.tab-top .tab-list a:nth-child(3):hover span {
   background: url(../img/chxf2.png);
 }
-.tab-top .tab-list a:nth-child(2) span {
+.tab-top .tab-list a:nth-child(4) span {
   background: url(../img/xbzl1.png);
 }
-.tab-top .tab-list a:nth-child(2):hover span {
+.tab-top .tab-list a:nth-child(4):hover span {
   background: url(../img/xbzl2.png);
 }
-.tab-top .tab-list a:nth-child(3) span {
+.tab-top .tab-list a:nth-child(6) span {
   background: url(../img/yyyx1.png);
 }
-.tab-top .tab-list a:nth-child(3):hover span {
+.tab-top .tab-list a:nth-child(6):hover span {
   background: url(../img/yyyx2.png);
 }
-.tab-top .tab-list a:nth-child(4) span {
+.tab-top .tab-list a:nth-child(5) span {
   background: url(../img/jyzl1.png);
 }
-.tab-top .tab-list a:nth-child(4):hover span {
+.tab-top .tab-list a:nth-child(5):hover span {
   background: url(../img/jyzl2.png);
 }
-.tab-top .tab-list a:nth-child(5) span {
+.tab-top .tab-list a:nth-child(2) span {
   background: url(../img/swyz1.png);
 }
-.tab-top .tab-list a:nth-child(5):hover span {
+.tab-top .tab-list a:nth-child(2):hover span {
   background: url(../img/swyz2.png);
 }
-.tab-top .tab-list a:nth-child(6) span {
+.tab-top .tab-list a:nth-child(1) span {
   background: url(../img/jbjc1.png);
 }
-.tab-top .tab-list a:nth-child(6):hover span {
+.tab-top .tab-list a:nth-child(1):hover span {
   background: url(../img/jbjc2.png);
 }
 .tab-top .tab {
