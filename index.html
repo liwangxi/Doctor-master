@@ -403,7 +403,9 @@
         prevButton: '.swiper-button-prev',
     });
     function right1() {
-        let left = ($(window).width() - 1150) / 2
+        if($(window).width()>1150){
+            let left = ($(window).width() - 1150) / 2
+        }
         $(".list .item div").css("marginLeft", left);
         $(".swiper-button-next").css("right", left);
         $(".swiper-button-prev").css("left", left);
